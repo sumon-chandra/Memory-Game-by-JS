@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightcyan;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid lightgreen;
+  background-color: #fff;
+  cursor: pointer;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 500px;
+  gap: 2em;
+  margin: 7em auto;
+}
